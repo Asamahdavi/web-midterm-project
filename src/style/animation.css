@@ -1,0 +1,86 @@
+div.animation:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.animation-item:hover {
+  transform: scale(1, 1);
+  transition: 0.5s;
+  overflow: hidden;
+  cursor: pointer;
+  width: 256px;
+  height: 256px;
+  background-color: #ffe672;
+  animation-name: shadow-drop-center;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
+  }
+}
+//
+div.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.item {
+  width: full;
+  height: full;
+
+  animation-name: slide-in-fwd-bottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+@keyframes slide-in-fwd-bottom {
+  0% {
+    -webkit-transform: translateZ(-1400px) translateY(800px);
+    transform: translateZ(-1400px) translateY(800px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+//
+div.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 264px;
+}
+.at-item {
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-timing-function: normal;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
