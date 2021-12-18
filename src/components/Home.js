@@ -22,10 +22,10 @@ export default function Home() {
         <Navbar/>
             <section className='pt-6 grid  p-12 '>
             
-                <h1 className='text-6xl text-left '>
+            <h1 className='xl:text-6xl  text-black  text-left p-36  sm:text-2xl md:text-5xl'>
                   
                 Hi! I am Max and this is my portfolio. I can help you build a
-        <Typical   className="text-6xl p-0 col-span-2 text-left"
+        <Typical   className="xl:text-6xl p-0 col-span-2 text-left md:text-5xl sm:text-2xl"
              steps={[
                      'thriving business.',
                   5000,
@@ -43,13 +43,13 @@ export default function Home() {
             </section>
 
       
-        <div className='flex  pl-16'>
+        <div className='flex pl-16'>
         <div class='container'>
  
 
-        <div className="item  p-16 grid content-center
+        <div className="item md:grid-cols-3 p-16 grid content-center
          justify-evenly items-center
-          grid-cols-5  py-14 px-0">
+          xl:grid-cols-5  py-14 px-0">
        <Cards iconsrc={icon4}/>
         <Cards iconsrc={icon}/>
         <Cards iconsrc={icon2}/>

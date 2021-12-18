@@ -8,41 +8,41 @@ import React, { useState } from "react";
 
 
 function Navbar() {
-  const [active, setActive] = useState("nav__menu");
-  const [icon, setIcon] = useState("nav__toggler");
+  const [active, setActive] = useState("nav-menu");
+  const [icon, setIcon] = useState("nav-toggler");
   const navToggle = () => {
-    if (active === "nav__menu") {
-      setActive("nav__menu nav__active");
-    } else setActive("nav__menu");
+    if (active === "nav-menu") {
+      setActive("nav-menu nav-active");
+    } else setActive("nav-menu");
 
-    // Icon Toggler
-    if (icon === "nav__toggler") {
-      setIcon("nav__toggler toggle");
-    } else setIcon("nav__toggler");
+  
+    if (icon === "nav-toggler") {
+      setIcon("nav-toggler toggle");
+    } else setIcon("nav-toggler");
   };
   return (
     <nav className="nav">
      
-      <img  className=" nav__brand flex justify-start " height={90} width={200}src={logo} alt=''/>
+      <img  className=" nav-brand flex justify-start " height={90} width={200}src={logo} alt=''/>
      
       <ul className={active}>
-        <li className="nav__item">
-          <a  href="/" className="nav__link">
+        <li className="nav-item">
+          <a  href="/" className="nav-link">
             Home
           </a>
         </li>
-        <li className="nav__item">
-          <a href="/About" className="nav__link">
+        <li className="nav-item">
+          <a href="/About" className="nav-link">
             About
           </a>
         </li>
-        <li className="nav__item">
-          <a href="/Blog" className="nav__link">
+        <li className="nav-item">
+          <a href="/Blog" className="nav-link">
             Blog
           </a>
         </li>
-        <li className="nav__item">
-          <a href="/Contant" className="nav__link">
+        <li className="nav-item">
+          <a href="/Contant" className="nav-link">
             Contact
           </a>
         </li>

@@ -15,10 +15,10 @@ export default function Footer() {
 
   <section>
     <div  className="pt-28 ">
-        <div className="flex pr-24 justify-center">
+        <div className="flex  pr-24 justify-center">
 
       
-        <div className="grid  pl-24 grid-cols-6 space-x-2 justify-center ">
+        <div className="grid  pl-24 md:grid-cols-3 sm:grid-cols-3 xl:grid-cols-6 space-x-2 justify-center ">
        <button className="btn" data-tip data-for="registerTip">
             <img className="images" alt="" id="TwitterImage" src={twitterIcon}width="25" height="20" title="Follow me on Twitter"/>
        </button>
@@ -61,11 +61,8 @@ export default function Footer() {
 
         </div>
         </div>
-        {/* <div className="">
-           <div className="w-1 h-1" id="star-five"></div>
-        </div> */}
-       
-      <h3 className="text-gray-400 m-8">subscribe</h3>
+     
+      <h3 className=" m-8  text-black ">subscribe</h3>
       <h4 className="text-gray-400 m-2" >Get our latest news, tips and tricks</h4>
 
      

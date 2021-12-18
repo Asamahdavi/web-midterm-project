@@ -17,14 +17,14 @@ export default function Blog() {
 <div>
     <Header/>
     <section>
-    <h1 className='text-6xl text-left p-36'>
+    <h1 className='text-6xl  text-black  text-left p-36'>
         Blog – Here you can read the latest news regarding our projects and clients
         </h1>
     </section>
     <section>
     <div className="  pl-16 grid content-center space-x-0
          justify-around items-center
-          grid-cols-4  py-14 px-0">
+          xl:grid-cols-4  sm:grid-cols-2  py-14 px-0">
     <BlogCards img={im1} title={"Invitation !"} prag={"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."}/>
     <BlogCards img = {im2} title={"Entry with Audio"} prag={"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."}/>
     <BlogCards img={im3} title={"A small gallery"} prag={"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. "}/>

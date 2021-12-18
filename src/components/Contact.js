@@ -6,12 +6,12 @@ export default function Contact() {
     return(<>
     <Header/>
     <section>
-    <h1 className='text-6xl text-left p-36'>
+    <h1 className='text-6xl text-left p-36 text-black'>
     Contact – Get in touch! I am currently available for contract work
         </h1>
     </section>
     <section>
-        <div  className="grid grid-cols-2 space-x-24 px-12" >
+        <div  className="grid sm:grid-cols-1 xl:grid-cols-2 space-x-24 px-12" >
         <div className="text-left py-4 space-y-3 mb-2">
             <h1 className="text-left text-4xl text-black  font-bold">
             I am located in
@@ -39,7 +39,7 @@ export default function Contact() {
         <div>
           
         <form className="w-full  justify-between">
-            <h1 className="text-left py-4 text-4xl mb-2 font-bold">Feel free to drop me a mail</h1>
+            <h1 className="text-left py-4 text-4xl text-black mb-2 font-bold">Feel free to drop me a mail</h1>
             <div className="grid grid-cols-2 items-start justify-between space-x-3">  
             <div className="">
 

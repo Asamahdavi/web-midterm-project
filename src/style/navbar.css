@@ -1,12 +1,15 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
 li {
   list-style: none;
-  padding: 24.5px;
+  padding: 16px;
 }
 li :hover {
   background: white;
   color: black;
   list-style: none;
-  padding: 24.5px;
+  padding: 28px;
 }
 a {
   text-decoration: none;
@@ -20,22 +23,22 @@ a {
   height: 10vh;
   background: #111010;
 }
-.nav__brand {
+.nav-brand {
   text-transform: uppercase;
   justify-content: space-around;
 }
 
-.nav__menu {
+.nav-menu {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
   color: white;
 }
-.nav__toggler {
+.nav-toggler {
   display: none;
 }
-.nav__toggler div {
+.nav-toggler div {
   width: 2.5rem;
   height: 0.2rem;
   margin: 0.4rem;
@@ -44,11 +47,11 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .nav__toggler {
+  .nav-toggler {
     display: block;
     cursor: pointer;
   }
-  .nav__menu {
+  .nav-menu {
     position: fixed;
     top: 7vh;
     right: 0;
@@ -68,7 +71,7 @@ a {
   }
 }
 
-.nav__active {
+.nav-active {
   transform: translateX(0%);
 }
 
