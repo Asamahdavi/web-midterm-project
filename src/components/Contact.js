@@ -6,14 +6,14 @@ export default function Contact() {
       <section>
         <Header />
       </section>
-      <section className="container">
+      <section className="container overflow-hidden">
         <div className="item">
           <h1 className="text-6xl text-left p-36 text-black">
             Contact – Get in touch! I am currently available for contract work
           </h1>
         </div>
       </section>
-      <section>
+      <section className="overflow-hidden">
         <div className="container grid sm:grid-cols-1 xl:grid-cols-2 space-x-24 px-12">
           <div className="item text-left py-4 space-y-3 mb-2">
             <h1 className="text-left text-4xl text-black  font-bold">
@@ -36,7 +36,7 @@ export default function Contact() {
             </p>
           </div>
           <div className="container">
-            <form className="item w-full  justify-between">
+            <form className="item w-4/5  justify-between">
               <h1 className=" text-left py-4 text-4xl text-black mb-2 font-bold">
                 Feel free to drop me a mail
               </h1>
