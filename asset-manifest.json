@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/web-midterm-project/static/css/main.d2971aac.css",
+    "main.js": "/web-midterm-project/static/js/main.2886e949.js",
+    "static/media/14.jpg": "/web-midterm-project/static/media/14.7496309bf80ffac1c835.jpg",
+    "static/media/4.jpg": "/web-midterm-project/static/media/4.9532c3885e2b8e5f853f.jpg",
+    "static/media/ii (4).jpg": "/web-midterm-project/static/media/ii (4).9532c3885e2b8e5f853f.jpg",
+    "static/media/10.jpg": "/web-midterm-project/static/media/10.e60ec77415659d95e252.jpg",
+    "static/media/ii (3).jpg": "/web-midterm-project/static/media/ii (3).ed1e53b54f1208d3d914.jpg",
+    "static/media/2.jpg": "/web-midterm-project/static/media/2.b38cf55851c7c767efd4.jpg",
+    "static/media/ii (2).jpg": "/web-midterm-project/static/media/ii (2).b38cf55851c7c767efd4.jpg",
+    "static/media/17.jpg": "/web-midterm-project/static/media/17.8453c65fae88c4cbd37c.jpg",
+    "static/media/ii (6).jpg": "/web-midterm-project/static/media/ii (6).8453c65fae88c4cbd37c.jpg",
+    "static/media/wh (3).jpeg": "/web-midterm-project/static/media/wh (3).4cf4c3ba97c0f4550941.jpeg",
+    "static/media/wh (6).jpeg": "/web-midterm-project/static/media/wh (6).2903a6a6fcfffcd066da.jpeg",
+    "static/media/wh (2).jpeg": "/web-midterm-project/static/media/wh (2).e58ee6ab7bde7643b10c.jpeg",
+    "static/media/wh (7).jpeg": "/web-midterm-project/static/media/wh (7).d345d92893678a2da70f.jpeg",
+    "static/media/wh (5).jpeg": "/web-midterm-project/static/media/wh (5).af750bb420972fd22bee.jpeg",
+    "static/media/ii (5).jpg": "/web-midterm-project/static/media/ii (5).45a4ac34a26c9acbd306.jpg",
+    "static/media/1.jpg": "/web-midterm-project/static/media/1.c1af774204c9821eca0d.jpg",
+    "static/media/ii (7).jpg": "/web-midterm-project/static/media/ii (7).c1af774204c9821eca0d.jpg",
+    "static/media/13.jpg": "/web-midterm-project/static/media/13.a0ba8e21c31c4e260cd9.jpg",
+    "static/media/7.jpg": "/web-midterm-project/static/media/7.677a3cb21c00d6a93e2b.jpg",
+    "static/media/ii (1).jpg": "/web-midterm-project/static/media/ii (1).677a3cb21c00d6a93e2b.jpg",
+    "static/media/navbarimg.png": "/web-midterm-project/static/media/navbarimg.502ceb7b231e98de6900.png",
+    "static/media/5.jpg": "/web-midterm-project/static/media/5.38e039fe4ff1475eab0a.jpg",
+    "static/media/9.jpg": "/web-midterm-project/static/media/9.1578ce423496c8a80710.jpg",
+    "static/media/8.jpg": "/web-midterm-project/static/media/8.a1d8d2faf390deda60d3.jpg",
+    "static/media/slick.svg": "/web-midterm-project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/web-midterm-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/web-midterm-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/web-midterm-project/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/web-midterm-project/index.html",
+    "main.d2971aac.css.map": "/web-midterm-project/static/css/main.d2971aac.css.map",
+    "main.2886e949.js.map": "/web-midterm-project/static/js/main.2886e949.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2971aac.css",
+    "static/js/main.2886e949.js"
+  ]
+}
