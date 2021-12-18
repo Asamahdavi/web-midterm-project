@@ -4,10 +4,11 @@ import twitterIcon from "../img/icons8-twitter-48.png";
 import bIcon from "../img/icons8-dribbble-32.png";
 import instaIcon from "../img/icons8-instagram-24.png";
 import React, { useState } from "react";
-
+import {NavLink} from 'react-router-dom'
 function Navbar() {
   const [active, setActive] = useState("nav-menu");
   const [icon, setIcon] = useState("nav-toggler");
+
   const navToggle = () => {
     if (active === "nav-menu") {
       setActive("nav-menu nav-active");
@@ -29,25 +30,29 @@ function Navbar() {
 
       <ul className={active}>
         <li className="nav-item">
-          <a href="/" className="nav-link">
-            Home
-          </a>
+            <NavLink exact activeClassName="active" to='/'>
+               Home
+            </NavLink>
+      
         </li>
 
-        <li className="nav-item active:bg-white active:text-black ">
-          <a href="/About" className="nav-link active:bg-white active:text-black">
-            About
-          </a>
+        <li className="nav-item">
+         
+             <NavLink exact activeClassName="active" to='/About'>
+               About
+            </NavLink>
         </li>
         <li className="nav-item">
-          <a href="/Blog" className="nav-link">
-            Blog
-          </a>
+          
+             <NavLink exact activeClassName="active" to='/Blog'>
+               Blog
+            </NavLink>
         </li>
         <li className="nav-item">
-          <a href="/Contant" className="nav-link">
-            Contact
-          </a>
+         
+             <NavLink exact activeClassName="active" to='/Contant'>
+               Contact
+            </NavLink>
         </li>
       </ul>
       <div onClick={navToggle} className={icon}>

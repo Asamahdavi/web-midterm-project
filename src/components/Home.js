@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="flex pl-16">
+      <div className="flex p-16">
         <div class="container">
           <div
             className="item md:grid-cols-3 p-16 grid content-center

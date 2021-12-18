@@ -1,27 +1,36 @@
 * {
   font-family: "Times New Roman", Times, serif;
 }
-.nav-item {
+ul {
   list-style: none;
-  padding: 16px;
+  display: flex;
+  justify-content: space-around;
 }
-.nav-item:hover {
-  background: white;
-  color: black;
-  list-style: none;
-  padding: 28px;
-}
-.nav-item:active {
-  background: white;
-  color: black;
-  list-style: none;
-  padding: 28px;
-}
-a {
+ul li a {
   text-decoration: none;
-  color: white;
+  background-color: #111010;
+  color: #fff;
+  /* padding: 10px 20px; */
+  font-weight: bold;
 }
 
+ul li a:hover {
+  padding: 28px;
+  background-color: white;
+  color: black;
+}
+
+.active {
+  padding: 28px;
+  background-color: white;
+  color: black;
+}
+.nav-link:hover {
+  background: white;
+  color: black;
+  list-style: none;
+  padding: 28px;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -51,7 +60,19 @@ a {
   background: white;
   transition: 0.3s ease-in;
 }
-
+@media screen and (max-width: 1280) {
+  .active {
+    padding: 28px;
+    background-color: white;
+    color: black;
+  }
+  .nav-link:hover {
+    background: white;
+    color: black;
+    list-style: none;
+    padding: 28px;
+  }
+}
 @media screen and (max-width: 768px) {
   .nav-toggler {
     display: block;
@@ -74,6 +95,23 @@ a {
     padding: 0;
     color: white;
     background: #111010;
+  }
+  ul li a:hover {
+    padding: 28px;
+    background-color: #111010;
+    color: white;
+  }
+
+  .active {
+    padding: 28px;
+    background-color: #111010;
+    color: white;
+  }
+  .nav-link:hover {
+    background-color: #111010;
+    color: white;
+    list-style: none;
+    padding: 28px;
   }
 }
 

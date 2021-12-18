@@ -10,9 +10,9 @@ export default function Footer() {
   return (
     <>
       <section>
-        <div className="pt-28 ">
-          <div className="flex  pr-24 justify-center">
-            <div className="grid  pl-24 md:grid-cols-3 sm:grid-cols-3 xl:grid-cols-6 space-x-2 justify-center ">
+        <div className="pt-28  ">
+          <div className="flex  pr-24 justify-center ">
+            <div className="grid  pl-24 md:grid-cols-3 sm:grid-cols-2 sm:space-x-0 xl:grid-cols-6 space-x-2 justify-center ">
               <button className="btn" data-tip data-for="registerTip">
                 <img
                   className="images"

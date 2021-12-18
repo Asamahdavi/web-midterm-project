@@ -1,6 +1,7 @@
 import Header from "./navbar";
 import Footer from "./Footer";
 import Carsoul from "./carsoul";
+
 import "../style/animation.css";
 export default function About() {
   return (
