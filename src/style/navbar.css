@@ -1,11 +1,17 @@
 * {
   font-family: "Times New Roman", Times, serif;
 }
-li {
+.nav-item {
   list-style: none;
   padding: 16px;
 }
-li :hover {
+.nav-item:hover {
+  background: white;
+  color: black;
+  list-style: none;
+  padding: 28px;
+}
+.nav-item:active {
   background: white;
   color: black;
   list-style: none;

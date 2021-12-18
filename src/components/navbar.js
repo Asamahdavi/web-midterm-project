@@ -18,7 +18,7 @@ function Navbar() {
     } else setIcon("nav-toggler");
   };
   return (
-    <nav className="nav">
+    <nav className="nav ">
       <img
         className=" nav-brand flex justify-start "
         height={90}
@@ -33,8 +33,9 @@ function Navbar() {
             Home
           </a>
         </li>
-        <li className="nav-item">
-          <a href="/About" className="nav-link">
+
+        <li className="nav-item active:bg-white active:text-black ">
+          <a href="/About" className="nav-link active:bg-white active:text-black">
             About
           </a>
         </li>
@@ -54,10 +55,10 @@ function Navbar() {
         <div className="line2"></div>
         <div className="line3"></div>
       </div>
-      <div className="thirdIcon space-x-4   float-right flex items-end  relative   grid-cols-3 h-12 bg-darkgray ">
-        <img className=" " height={10} width={20} src={twitterIcon} alt="" />
-        <img height={10} width={20} className="icon" src={bIcon} alt="" />
-        <img height={10} width={20} className="icon" src={instaIcon} alt="" />
+      <div className="thirdIcon space-x-4   float-right flex items-end  relative   grid-cols-3 h-5 bg-darkgray ">
+        <img className="cursor-pointer " height={10} width={20} src={twitterIcon} alt="" />
+        <img height={10} width={20} className="icon cursor-pointer" src={bIcon} alt="" />
+        <img height={10} width={20} className="icon cursor-pointer" src={instaIcon} alt="" />
       </div>
     </nav>
   );
