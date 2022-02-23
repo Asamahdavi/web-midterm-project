@@ -66,7 +66,7 @@ div.at-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 264px;
+  height: 584px;
 }
 .at-item {
   animation-name: fade-in;

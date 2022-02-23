@@ -1,13 +1,14 @@
 import Header from "./navbar";
 import BlogCards from "./BlogCards";
 import Footer from "./Footer";
-import im1 from "../img/ii(1).jpg";
+// import im1 from "../img/ii (1).jpg";
 import im2 from "../img/ii (2).jpg";
 import im3 from "../img/ii (3).jpg";
 import im4 from "../img/ii (4).jpg";
 import im5 from "../img/ii (5).jpg";
 import im6 from "../img/ii (6).jpg";
 import im7 from "../img/ii (7).jpg";
+import im1 from "../img/iiii.jpg";
 
 export default function Blog() {
 
