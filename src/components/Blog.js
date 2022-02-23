@@ -1,7 +1,7 @@
 import Header from "./navbar";
 import BlogCards from "./BlogCards";
 import Footer from "./Footer";
-import im1 from "../img/ii (1).jpg";
+import im1 from "../img/ii(1).jpg";
 import im2 from "../img/ii (2).jpg";
 import im3 from "../img/ii (3).jpg";
 import im4 from "../img/ii (4).jpg";

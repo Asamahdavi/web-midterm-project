@@ -41,7 +41,6 @@ div.container {
 .item {
   width: full;
   height: full;
-
   animation-name: slide-in-fwd-bottom;
   animation-duration: 1s;
   animation-timing-function: ease-out;

@@ -1,12 +1,12 @@
-export default function Cards({ props, title,img }) {
+export default function blogCards({  title, prag }) {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <div className="px-6 py-4">
-         <img className="w-full pb-10 " src={img} alt="" />
-        <div className="font-bold text-left text-xl mb-2  text-black ">
-          {title}
+    <div className="at-container">
+      <div className=" at-item max-w-sm w-72 h-4/5 rounded overflow-hidden shadow-lg">
+        {/* <img className="w-full  " src={img} alt="" /> */}
+        <div className="px-6 py-4 ">
+          <div className="font-bold py-4 text-xl mb-2 text-black ">{title}</div>
+          <p className="text-gray-700 h-64 text-base ">{prag}</p>
         </div>
-        <p className="text-gray-700 text-left text-base">{props}</p>
       </div>
     </div>
   );

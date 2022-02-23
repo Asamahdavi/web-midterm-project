@@ -24,7 +24,7 @@ export default function Home() {
       </section>
 
       <section className="container pt-6 grid  p-12 ">
-        <div class="item">
+        <div className="item">
           <h1 className="xl:text-6xl  text-black  text-left p-36  sm:text-2xl md:text-5xl">
             Hi! I am Max and this is my portfolio. I can help you build a
             <Typical
